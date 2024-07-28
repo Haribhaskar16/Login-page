@@ -1,0 +1,67 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.login-container{
+    border:2px solid rgba(255,255,255,.2);
+    height:300px;
+    width:300px;
+    text-align: center;
+    padding:30px;
+    border-radius: 20px;
+    background:transparent;
+    backdrop-filter: blur(50px);
+}
+h1{
+    color:yellow
+}
+.name input,.password input{
+    width:96%;
+    height:30px;
+    border-radius: 10px;
+    border:1px solid black;
+    margin-bottom: 10px;
+}
+i{
+    position:relative;
+    left:130px;
+    bottom:35px;
+}
+::placeholder{
+    position:absolute;
+    left:10px;
+}
+.checkbox{
+    position:relative;
+    right:80px;
+    color:whitesmoke;
+}
+.forget{
+    position:relative;
+    bottom:20px;
+    left:80px;
+}
+.bn{
+    text-decoration: none;
+    color:white;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+    background:linear-gradient(33deg,blue,purple);
+    border:0px solid black;
+
+}
+.forget label a{
+    color:whitesmoke;
+}
+input:focus{
+    border:2px solid black;
+}
